@@ -1,6 +1,9 @@
 import './globals.css'
+import './fonts.css'
 
 import type { Metadata } from 'next'
+
+import Header from '@/components/Header'
 
 export const metadata: Metadata = {
   title: 'Mister Academy',
@@ -15,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body>
+        <Header />
         <main>
           {children}
         </main>
