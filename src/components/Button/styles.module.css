@@ -1,0 +1,10 @@
+.button {
+    background: none;
+    border: none;
+    padding: .5em;
+    color: var(--secondary-color);
+}
+
+.button svg {
+    font-size: 3em;
+}
