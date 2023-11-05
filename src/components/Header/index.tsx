@@ -36,10 +36,10 @@ const Header = () => {
                 <span>Academy</span>
             </Link>
             <Button icon={SearchOutlined} onClick={handleToggleSearch} />
-            <div className={showSearch ? styles.search : styles.close}>
+            <div className={`${styles.search} ${showSearch ? '' : styles.close}`}>
                 <input type="text" placeholder='Pesquisar...' />
             </div>
-            <nav className={showMenu ? styles.navigation : styles.close}>
+            <nav className={`${styles.navigation} ${showMenu ? '' : styles.close}`}>
                 <ul>
                     <li>
                         <Link className={styles.active} href='#'>Home</Link>
