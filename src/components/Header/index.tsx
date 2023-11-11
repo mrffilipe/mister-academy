@@ -45,13 +45,13 @@ const Header = () => {
                         <Link className={styles.active} href='#'>Home</Link>
                     </li>
                     <li>
-                        <Link href='#'>Árvores</Link>
+                        <Link href='#'>Categorias</Link>
                     </li>
                     <li>
-                        <Link href='#'>Tabelas</Link>
+                        <Link href='#'>Sobre</Link>
                     </li>
                     <li>
-                        <Link href='#'>Grafos</Link>
+                        <Link href='#'>Contato</Link>
                     </li>
                 </ul>
             </nav>
