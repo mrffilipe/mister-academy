@@ -4,16 +4,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .1);
 }
 
 .logo {
     text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+.logo span {
+    margin-left: 1em;
     color: var(--secondary-color);
     font-size: 1.5em;
 }
 
-.logo span {
+.logo span strong {
     font-weight: 700;
 }
 

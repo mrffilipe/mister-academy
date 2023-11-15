@@ -4,9 +4,12 @@ import styles from './styles.module.css'
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { MenuOutlined, SearchOutlined } from '@mui/icons-material'
 
 import Button from '../Button'
+
+import Logo from '@/assets/svg/logo.svg'
 
 const Header = () => {
     const [showMenu, setShowMenu] = useState<boolean>()
@@ -32,8 +35,8 @@ const Header = () => {
         <header className={styles.header}>
             <Button icon={MenuOutlined} onClick={handleToggleMenu} />
             <Link href='/' className={styles.logo}>
-                Mister
-                <span>Academy</span>
+                <Image src={Logo} alt='MisterAcademy logo' />
+                <span>Mister<strong>Academy</strong></span>
             </Link>
             <Button icon={SearchOutlined} onClick={handleToggleSearch} />
             <div className={`${styles.search} ${showSearch ? '' : styles.close}`}>

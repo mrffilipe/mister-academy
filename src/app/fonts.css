@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&display=swap');
 
 h1,
 h2,
 h3,
 p,
 a,
-button {
-    font-family: 'Montserrat', sans-serif;
+button,
+span {
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 h1,
@@ -33,7 +34,7 @@ p {
 }
 
 @media screen and (min-width: 960px) {
-    h1 {
+    /* h1 {
         font-size: 2.7em;
     }
 
@@ -43,5 +44,5 @@ p {
 
     h3 {
         font-size: 1.7em;
-    }
+    } */
 }

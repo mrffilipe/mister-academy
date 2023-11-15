@@ -14,3 +14,7 @@
 body {
     background-color: var(--primary-color);
 }
+
+main {
+    padding: 4em 16em;
+}
