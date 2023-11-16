@@ -4,6 +4,7 @@ import './fonts.css'
 import type { Metadata } from 'next'
 
 import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Mister Academy',
@@ -22,6 +23,7 @@ export default function RootLayout({
         <main>
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   )

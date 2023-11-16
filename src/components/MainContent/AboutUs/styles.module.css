@@ -1,0 +1,52 @@
+.about_us {
+    margin-top: 3em;
+    border-radius: 1.5em;
+    overflow: hidden;
+    box-shadow: 0 4px .5em rgba(0, 0, 0, .6);
+}
+
+.toolbar,
+.content {
+    padding: 2em;
+}
+
+.toolbar {
+    background-color: #2c2c2c;
+    display: flex;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .1);
+}
+
+.toolbar>div {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    margin-right: .5em;
+}
+
+.toolbar>div:nth-child(1) {
+    background-color: #FF5F56;
+}
+
+.toolbar>div:nth-child(2) {
+    background-color: #FFBD2E;
+}
+
+.toolbar>div:nth-child(3) {
+    background-color: #27C93F;
+}
+
+.content {
+    background-color: #313131;
+}
+
+.content h1 {
+    color: #fff;
+}
+
+.content div {
+    margin-top: 1em;
+}
+
+.content p {
+    color: #fff;
+}

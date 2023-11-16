@@ -1,0 +1,49 @@
+.newsletter {
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.newsletter form {
+    width: 80%;
+}
+
+.newsletter form input {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: .5em 1em;
+    display: block;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--secondary-color);
+    font-size: 1.1em;
+    transition: all .3s ease;
+}
+
+.newsletter form input:focus,
+.newsletter form input:valid {
+    border-bottom: 1px solid var(--accent-color);
+}
+
+.newsletter form button {
+    width: 100%;
+    display: block;
+    background: none;
+    border: none;
+    background-color: var(--accent-color);
+    border-radius: 1.5em;
+    padding: 1em 2em;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.newsletter form span {
+    margin-top: .5em;
+    display: block;
+    text-align: center;
+    color: var(--secondary-color);
+}

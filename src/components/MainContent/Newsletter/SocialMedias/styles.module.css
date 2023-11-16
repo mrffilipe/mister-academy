@@ -1,0 +1,26 @@
+.social_medias {
+    margin-top: 1em;
+    display: flex;
+}
+
+.social_medias>a {
+    margin: 0 .5em;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: .5em;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+    transition: all .3s ease;
+}
+
+.social_medias>a:hover {
+    background-color: #e5e5e5;
+}
+
+.social_medias>a img {
+    width: 2em;
+    height: auto;
+}
