@@ -1,0 +1,35 @@
+.post>h3 {
+    font-weight: 500;
+}
+
+.editor {
+    margin-top: 2em;
+}
+
+.post_footer {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.post_footer button {
+    border: none;
+    outline: none;
+    padding: .5em 1em;
+    border-radius: .5em;
+    color: #fff;
+    font-size: 1.2em;
+    font-family: 'Libre Franklin', sans-serif;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .3);
+}
+
+.discard {
+    background-color: red;
+}
+
+.publish {
+    margin-left: 1em;
+    background-color: var(--alternative-color);
+}
