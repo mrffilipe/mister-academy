@@ -2,9 +2,9 @@ import styles from './styles.module.css'
 
 import Link from 'next/link'
 
-const AboutUs = () => {
+const Welcome = () => {
     return (
-        <div className={styles.about_us}>
+        <div className={styles.welcome}>
             <div className={styles.text}>
                 <h1>Bem vindo a MisterAcademy</h1>
                 <p>
@@ -16,4 +16,4 @@ const AboutUs = () => {
     )
 }
 
-export default AboutUs
+export default Welcome
