@@ -10,7 +10,7 @@ const Create = () => {
     const [data, setData] = useState<string>('')
 
     return (
-        <section className={styles.post}>
+        <section className={styles.create}>
             <h3>Nova publicação</h3>
             <div className={styles.editor}>
                 <CKEditor
@@ -26,6 +26,9 @@ const Create = () => {
             <div className={styles.post_footer}>
                 <button className={styles.discard}>Descartar</button>
                 <button className={styles.publish}>Publicar</button>
+            </div>
+            <div>
+                {data}
             </div>
         </section>
     )

@@ -1,3 +1,7 @@
+.latest_pubs {
+    flex: 1;
+}
+
 .latest_pubs h2 {
     margin-bottom: 1em;
     padding-left: .5em;

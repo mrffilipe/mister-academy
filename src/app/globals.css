@@ -8,7 +8,8 @@
     --primary-color: #F5F5F5;
     --secondary-color: #1B1B1B;
     --accent-color: #EC5800;
-    --alternative-color: #0094EC;
+    --alternative-color: #00EDEC;
+    /* --alternative-color: #00EDEC; */
 }
 
 body {
@@ -16,5 +17,12 @@ body {
 }
 
 main {
-    padding: 4em 16em;
+    padding: 1em 1em;
+    position: relative;
+}
+
+@media screen and (min-width: 960px) {
+    main {
+        padding: 4em 16em;
+    }
 }
