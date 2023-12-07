@@ -1,6 +1,7 @@
 .social_medias {
     margin-top: 1em;
     display: flex;
+    justify-content: center;
 }
 
 .social_medias>a {
@@ -8,7 +9,7 @@
     padding: 5px;
     text-decoration: none;
     border-radius: .5em;
-    background-color: #fff;
+    background-color: #414141;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +18,7 @@
 }
 
 .social_medias>a:hover {
-    background-color: #e5e5e5;
+    background-color: #343434;
 }
 
 .social_medias>a img {

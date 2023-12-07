@@ -4,7 +4,7 @@ import SocialMedias from './SocialMedias'
 
 const Newsletter = () => {
     return (
-        <div className={styles.newsletter}>
+        <div id='newsletter' className={styles.newsletter}>
             <div className={styles.desc}>
                 <h2>Inscreva-se em nossa newsletter e receba todas as novidades</h2>
                 <p>

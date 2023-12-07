@@ -10,7 +10,7 @@ const Welcome = () => {
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum aliquet magna sed semper. Integer pulvinar ac nunc ut aliquet. Integer pulvinar ac nunc ut aliquet.
                 </p>
-                <Link href=''>Inscreva-se em nossa Newsletter</Link>
+                <Link href='#newsletter'>Inscreva-se em nossa Newsletter</Link>
             </div>
         </div>
     )

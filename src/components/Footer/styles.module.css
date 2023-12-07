@@ -1,11 +1,10 @@
 .footer {
-    background-color: var(--accent-color);
-    padding: 2em 0;
+    background-color: var(--secondary-color);
+    padding: 3em 0;
 }
 
 .footer span {
     text-align: center;
     display: block;
-    color: #fff;
-    font-size: 1.1em;
+    color: #e8e8e8;
 }

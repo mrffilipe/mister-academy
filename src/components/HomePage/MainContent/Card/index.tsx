@@ -14,13 +14,13 @@ const Card = () => {
                 </div>
                 <ul className={styles.tags}>
                     <li>
-                        <Link href=''>Javascript</Link>
+                        <Link href='/'>Javascript</Link>
                     </li>
                     <li>
-                        <Link href=''>C#</Link>
+                        <Link href='/'>C#</Link>
                     </li>
                     <li>
-                        <Link href=''>NextJS</Link>
+                        <Link href='/'>NextJS</Link>
                     </li>
                 </ul>
                 <h3 className={styles.title}>Título do card que está publicado em meu blog</h3>

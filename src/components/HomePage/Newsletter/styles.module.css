@@ -60,6 +60,7 @@
     border-radius: .5em;
     color: #fff;
     font-size: 1em;
+    font-weight: 600;
     font-family: 'Libre Franklin', sans-serif;
     cursor: pointer;
     transition: transform .3s ease;
