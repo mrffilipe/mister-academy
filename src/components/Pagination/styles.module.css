@@ -1,0 +1,30 @@
+.pagination {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination a {
+    display: block;
+    text-decoration: none;
+    background-color: #e8e8e8;
+    padding: .5em .75em;
+    border-radius: .5em;
+    color: #000;
+    transition: all .3s ease;
+}
+
+.pagination a:hover {
+    background-color: #d1d1d1;
+}
+
+.pagination ul {
+    margin: 0 .5em;
+    list-style: none;
+    display: flex;
+}
+
+.pagination ul li {
+    margin: 0 .25em;
+}

@@ -3,6 +3,9 @@ import styles from './styles.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
+import PostTags from '@/components/PostTags'
+import Pagination from '@/components/Pagination'
+
 import MockImg from '@/assets/img/img_mock.jpg'
 
 const Item = () => {
@@ -18,11 +21,7 @@ const Item = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce libero ex, vehicula quis varius sit amet, ullamcorper non metus. Nam eget tortor eget ex efficitur viverra.</p>
                     </div>
                     <div className={styles.item_content}>
-                        <ul className={styles.item_tags}>
-                            <li>C#</li>
-                            <li>Java</li>
-                            <li>Python</li>
-                        </ul>
+                        <PostTags />
                         <div className={styles.item_stats}>
                             <span className={styles.author}>Filipe M. Ferracioli</span>
                             <span className={styles.views}>1.4m</span>
@@ -61,21 +60,7 @@ const Search = () => {
                     <Item />
                 </ul>
             </div>
-            <div className={styles.navigation}>
-                <Link href=''>Anterior</Link>
-                <ul>
-                    <li>
-                        <Link href=''>1</Link>
-                    </li>
-                    <li>
-                        <Link href=''>2</Link>
-                    </li>
-                    <li>
-                        <Link href=''>3</Link>
-                    </li>
-                </ul>
-                <Link href=''>Próximo</Link>
-            </div>
+            <Pagination />
         </section>
     )
 }

@@ -37,30 +37,8 @@
     height: auto;
 }
 
-.tags {
+.post_tags {
     margin-top: 3em;
-    list-style: none;
-    display: flex;
-}
-
-.tags li {
-    margin-right: .5em;
-}
-
-.tags a {
-    text-decoration: none;
-    background-color: #414141;
-    color: #fff;
-    font-size: 0.8em;
-    padding: 6px 12px;
-    border-radius: .5em;
-    transition: background-color .3s ease;
-
-    z-index: 999;
-}
-
-.tags a:hover {
-    background-color: #343434;
 }
 
 .title {

@@ -1,0 +1,21 @@
+.tags {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags li {
+    margin: .5em 0;
+    margin-right: .5em;
+}
+
+.tags span {
+    background-color: #414141;
+    padding: 6px 12px;
+    border-radius: .5em;
+    color: #fff;
+    font-size: .8em;
+    transition: background-color .3s ease;
+
+    z-index: 999;
+}
