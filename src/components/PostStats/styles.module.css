@@ -1,0 +1,18 @@
+.author,
+.views,
+.date {
+    margin-top: .25em;
+    display: block;
+    color: #414141;
+}
+
+@media screen and (min-width: 960px) {
+    .post_stats {
+        display: flex;
+    }
+
+    .author,
+    .views {
+        margin-right: 1em;
+    }
+}
